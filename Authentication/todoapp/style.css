@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.jiraboard{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+.column{
+    border: 1px solid black;
+    min-height: 400px;
+    min-width: 300px;
+    text-align: center;
+}

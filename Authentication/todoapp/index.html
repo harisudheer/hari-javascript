@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jira-Lite</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <div class="board">
-       <div>
+    <div class="jiraboard">
+       <div class="Board">
           <h1>Jira Board</h1>
-           <button>Add card</button>
+           <button id="addCard">Add card</button>
         
         </div>
-      <div class="column" id="todo">Todo</div>
-      <div class="column" id="progress">Progress</div>
-      <div class="column" id="done">Done</div> 
+      <div class="column" id="todo"><b>Todo</b></div>
+      <div class="column" id="progress"><b>Progress</b></div>
+      <div class="column" id="done"><b>Done</b></div> 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
